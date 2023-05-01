@@ -18,3 +18,5 @@ CREATE USER OT IDENTIFIED BY yourpassword;
 
 -- grant priviledges
 GRANT CONNECT, RESOURCE, DBA TO OT;
+
+alter user ot  IDENTIFIED BY ot;
